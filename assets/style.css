@@ -54,32 +54,50 @@ header nav ul li a {
 }
 
 .about {
-    display: inline;
-    padding: 60px;
-}
-
-.portrait img {
-    /*display: flex;
-    flex-wrap: wrap;*/
-    max-width: 25%;
-    height: auto;
-}
-
-h2 {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.about-img {
+    flex: 2 100%;
+}
+
+.about-img img {
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+    height: auto;
+    justify-content: flex-start;
+}
+
+.about-me {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.about-me h2 {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
     padding: 20px;
 }
 
-.about p {
+.about-me p {
     line-height: 1.5;
     width: 80%;
     font-size: 15px;
     margin: 0 auto;
-    text-align: center;
+    text-align: right;
+
+    
 }
 
