@@ -115,9 +115,14 @@ header nav ul li a {
     justify-content: space-around;
 }
 
+.apps>*first-child {
+    flex-direction: column;
+    flex: 1 stretch;
+}
+
 .app {
     margin: 20px;
-    flex: 1;
+    flex: 1 1 33%;
 }
 
 .app-img {
