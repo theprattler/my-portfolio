@@ -10,13 +10,11 @@ body {
 }
 
 header {
-    background-color: #fff;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-image: url("../assets/images/header-abstract.jpg");
-    background-position: center;
-    background-attachment: fixed;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 9999;
@@ -32,11 +30,11 @@ h1 {
     justify-content: end;
 }
 
-h1 span {
+h1 span, h3 span {
     color: #505050;
 }
 
-header nav ul {
+header nav ul, .contact-links {
     font-size: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -45,12 +43,14 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li {
+header nav ul li, .contact-link {
     padding: 5px 25px;
 }
 
-header nav ul li a {
+/* normalized link displays */
+ul li a, .contact-link a {
     text-decoration: none;
+    color: #000;
 }
 
 .section-title {
@@ -115,11 +115,6 @@ header nav ul li a {
     justify-content: space-around;
 }
 
-.apps>*first-child {
-    flex-direction: column;
-    flex: 1 stretch;
-}
-
 .app {
     margin: 20px;
     flex: 1 1 33%;
@@ -136,10 +131,35 @@ header nav ul li a {
     width: 100%;
 }
 
-.app-text {
-
-}
-
 h4 {
     color: #505050;
+}
+
+.resume {
+    margin: 10px 25px;
+}
+
+footer {
+    background-image: url("../assets/images/header-abstract.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px 0 0 0;
+}
+
+.copyright {
+    padding: 10px 25px 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.quote {
+    padding: 0 25px 10px 0;
+    display: flex;
+    justify-content: right;
+    font-style: italic;
 }
