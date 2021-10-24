@@ -30,6 +30,7 @@ h1 {
     justify-content: end;
 }
 
+/* used to color "the" in "theprattler" */
 h1 span, h3 span {
     color: #505050;
 }
@@ -53,11 +54,21 @@ ul li a, .contact-link a {
     color: #000;
 }
 
+/* setting up section headings here */
+.flex-row {
+    display: flex;
+    justify-content: right;
+    margin: 25px;
+    border-bottom: 4px solid #505050;
+    padding-bottom: 5px;
+}
+
 .section-title {
     font-size: 35px;
     text-align: right;
 }
 
+/* picture of me and short bio */
 .bio {
     width: 100%;
     padding: 25px;
@@ -99,14 +110,7 @@ ul li a, .contact-link a {
     text-align: right; 
 }
 
-.flex-row {
-    display: flex;
-    justify-content: right;
-    margin: 25px;
-    border-bottom: 4px solid #505050;
-    padding-bottom: 5px;
-}
-
+/* deployed apps section */
 .apps {
     width: 100%;
     margin: 0 auto;
@@ -115,6 +119,7 @@ ul li a, .contact-link a {
     justify-content: space-around;
 }
 
+/* use this to make first app larger than others */
 .app-primo {
     margin: 20px;
     flex: 1 1 100%;
@@ -134,6 +139,7 @@ ul li a, .contact-link a {
     width: 100%;
 }
 
+/* text for launched app languages used */
 h4 {
     color: #505050;
 }
@@ -161,6 +167,7 @@ footer {
     justify-content: end;
 }
 
+/* lyric from third song I ever wrote */
 .quote {
     padding: 0 25px 10px 0;
     display: flex;
