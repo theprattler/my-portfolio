@@ -79,7 +79,7 @@ ul li a, .contact-link a {
 
 /* picture of me and short bio */
 .bio {
-    width: 100%;
+    width: 90%;
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
