@@ -20,6 +20,10 @@ header {
     z-index: 9999;
 }
 
+main {
+    padding: 2% 4%;
+}
+
 h1 {
     padding: 10px 25px 0 0;
     font-size: 50px;
@@ -54,11 +58,16 @@ ul li a, .contact-link a {
     color: #000;
 }
 
+#link:hover {
+    color: white;
+    transition: color .3s;
+}
+
 /* setting up section headings here */
 .flex-row {
     display: flex;
     justify-content: right;
-    margin: 25px;
+    margin: 25px 25px 35px 25px;
     border-bottom: 4px solid #505050;
     padding-bottom: 5px;
 }
@@ -112,22 +121,25 @@ ul li a, .contact-link a {
 
 /* deployed apps section */
 .apps {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    border: 1px #505050;
 }
 
 /* use this to make first app larger than others */
 .app-primo {
     margin: 20px;
     flex: 1 1 100%;
+    border: 1px #505050;
 }
 
 .app {
     margin: 20px;
     flex: 1 1 33%;
+    border: 1px #505050;
 }
 
 .app-img {
